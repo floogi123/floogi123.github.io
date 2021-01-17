@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Floating Balls</title>
+
+<style>
+
+    canvas {
+
+        border:0px solid black;
+   
+    }
+
+    body{
+        margin: 0;
+    }
+
+</style>
+
+</head>
+<body>
+    
+    
+    <div id = "top" style="font-size:50px; background-color: yellow; 
+    position:absolute; top: 100; left: 100; 
+    z-index: 3">
+    <a herf = "main.html"></a>
+
+
+    </div>
+
+    <div id="game">
+
+        <canvas id="layer2"
+            style="position: absolute; left: 0; top: 0; z-index: 1;">
+        </canvas> 
+
+        <canvas id = "layer1" 
+        style="position: absolute; left: 0; top: 0; z-index: 1;">
+        </canvas>
+
+             
+    </div>
+
+
+    <script src="canvas.js"></script>
+</body>
+</html>
